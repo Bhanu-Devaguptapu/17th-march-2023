@@ -1,0 +1,17 @@
+#include<stdio.h>
+int fact(int num);
+main()
+{
+int f,n;
+scanf("%d",&n);
+fact;
+f=fact(n);
+printf("Factorial = %d",f);	
+}
+int fact(int num)
+{
+	int ft=1,i;
+	for(i=num;i>=1;i--)
+	ft=ft*i;	
+	return ft;
+}
