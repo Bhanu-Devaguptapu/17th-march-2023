@@ -1,0 +1,15 @@
+#include<stdio.h>
+int cube(int num);
+int main()
+{
+	int n,c;
+	scanf("%d",&n);
+	c = cube(n);
+	printf("%d",c);
+}
+int cube(int num)
+{
+	int res;
+	res = num*num*num;
+	return res;
+}
