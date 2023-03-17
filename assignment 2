@@ -1,0 +1,16 @@
+#include<stdio.h>
+int area(int l,int b);
+main()
+{
+int length,breadth,ar;
+	printf("enter length and breadth of rectangle:");
+	scanf("%d %d",&length,&breadth);
+    area;
+    ar=area(length,breadth);
+    printf(" Area of rectangle is %d",ar);
+}
+int area(int l,int b){
+	int a;
+	a=l*b;
+	return a;
+}
